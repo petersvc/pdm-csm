@@ -94,7 +94,7 @@ class MainActivity : ComponentActivity() {
                         }
                     },
                     modifier = Modifier.fillMaxSize()) { innerPadding ->
-                    NavHost(navController = navController, startDestination = "main") {
+                    NavHost(navController = navController, startDestination = "login") {
                         composable("login") {
                             TelaLogin(
                                 modifier = Modifier.padding(innerPadding),
